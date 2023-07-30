@@ -1,0 +1,146 @@
+* {
+    /* background-color: blueviolet; */
+    /*Modelo de caja (espaciados)*/
+    margin: 0px;
+    padding: 0px;
+
+    /*configuraciones letras*/
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*Modelo de caja (tamaños)*/
+    height: 9vh;
+}
+#foto-de-perfil{
+    
+}
+main {
+    /*Modelo de caja (tamaños)*/
+    height: 80vh;
+
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /* height: auto; */
+    background: #f2f2f2;
+}
+
+
+header nav {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+
+    /*configuración visual (no hayan puntitos)*/
+    list-style: none;
+}
+
+li{
+    /*Modelo de caja (espaciados)*/
+    padding: 20px 10px;
+}
+
+#nav-right-section{
+    /*Modelo de caja (espaciados)*/
+    padding: 4px 4px;
+    color: #262727;  
+}
+
+#nav-left-section{
+    /*Modelo de caja (espaciados)*/
+    padding: 1px 1px;
+    color: #606365;
+}
+#gb_h{
+    color: #737678;
+}
+
+#footer-listas{
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-between;
+    color: #737678;
+}
+
+.pais {
+    /*Modelo de caja (espaciados)*/
+    padding: 15px 20px;
+    color: #737678;
+}
+
+
+#footer-listas ul li {
+    /*Modelo de caja (espaciados)*/
+    padding: 6px 35px;
+}
+
+button {
+    /*Modelo de caja (espaciados)*/
+    padding: 0 19px;
+    margin: 11px 4px;
+    /*Modelo de caja (tamaños)*/
+    height: 36px;
+    /*Modelo de caja (borde)*/
+    border: 0px solid #dadce0;
+    border-radius: 4px;
+
+    /*colores*/
+    background-color: #f8f9fa;
+    color: #3c4043;
+
+    /* estilo del puntero (felchita que solemos ver)*/
+    cursor: pointer;
+}
+
+#botones {
+    /*Modelo de caja (espaciados)*/
+    /* margin: 0px 0px 300px 0px; */
+    margin-bottom: 20%;
+}
+
+#seccion-buscador{
+    /*Modelo de caja (espaciados)*/
+    margin: 20px 0px;
+
+    /*Modelo de caja (tamaños)*/
+    width: 580px;
+    min-height: 45px;
+
+    /*Modelo de caja (borde)*/
+    border: 1px solid #dfe1e5;
+    border-radius: 44px;
+    
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#seccion-buscador svg {
+    /*Modelo de caja (espaciados)*/
+    padding: 8px 7px;
+    width: 24px;
+}
+
+#buscador {
+    /*Modelo de caja (espaciados)*/
+    width: 95%;
+    
+    /*configuración visual caja de texto (no visualizar bordes)*/
+    border: none;
+    outline: none;
+}
+#perfil{
+    border-radius: 100px;
+}
